@@ -13,7 +13,7 @@ def generate_pascal_triangle(rows: int) -> list :
     >>> generate_pascal_triangle(0)
     []
     """
-    if not isinstance(rows, int) :          
+    if not isinstance(rows, int) :
         return None
     if rows == 0 :
         return []
